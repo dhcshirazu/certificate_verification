@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.parallax {
+    background-image: url('https://images.pexels.com/photos/193350/pexels-photo-193350.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); /* Add your image here */
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    text-align: center;
+    padding: 50px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: -100px auto 0; /* Make content overlap the parallax */
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px; /* Optional: Adds rounded corners to the content box */
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin: 20px 0;
+    width: 100%; /* Ensure full-width input for better responsiveness */
+    box-sizing: border-box; /* Ensures padding doesn't affect width */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* Optional: Adds rounded corners to the button */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+}
