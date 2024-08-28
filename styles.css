@@ -17,7 +17,7 @@ body {
 .content {
     text-align: center;
     padding: 50px;
-    background: white;
+    background: #43766C;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     margin: -100px auto 0; /* Make content overlap the parallax */
     width: 80%;
@@ -34,7 +34,7 @@ input[type="text"] {
 
 button {
     padding: 10px 20px;
-    background-color: #007BFF;
+    background-color: #B19470;
     color: white;
     border: none;
     cursor: pointer;
@@ -42,7 +42,7 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3; /* Darker blue on hover */
+    background-color: #76453B; /* Darker blue on hover */
 }
 
 #result {
